@@ -1,0 +1,66 @@
+ecs?
+in ec2 if both pem nd ppk gets deleted how to run ? - remove  - how ? EBS volume from a gateway snapshot, and mount it to an Amazon EC2 instance - other way ?
+lb - elb
+vpc ?
+from one to another region vpc cnct ? No
+vpc architecture, how to create vpc
+ec2 ibtance types
+s3 types
+ami nd snapshot difference?
+ci cd flow?
+private/pub lic elastic ip?
+iam roles ? An IAM role is an IAM identity that you can create in your account that has specific permissions
+diff bt securuty grp & acl ?
+autoscaling
+cloud formatn
+git
+jenkin
+ansible
+aws concepts
+docker
+With a webhook in place, each time a Git user pushes a commit, your repository is automatically retrieved, zipped, and uploaded to an Amazon Simple Storage System (Amazon S3) bucket. You can then configure AWS services such as AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy to use the S3 bucket as a source. This Quick Start was developed by.
+
+
+-------------
+cert manager - AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources. SSL/TLS certificates are used to secure network communications and establish the identity of websites over the Internet as well as resources on private networks.
+how to manage critical databases in aws
+how to manage route53 in aws
+git with aws
+
+==============================
+temporary login in aws? STS (security token service ) using aws api
+created instance in one region, how to login to another region and display the same instance?
+lambda ? PaaS
+achive containerizatn in aws? aws App2Container
+connection draining ? Connection draining Connection draining is a feature that is designed to prevent abrupt behaviour of deregistered AWS instances when existing connections to that instance are lost. Connection draining process continues to serve these existing connections to deregistered instances for a configured timeout duration.
+how to push instance data to s3 in cli??
+maven lifecycle ? Default, clean and site
+how to get the artifacts for nexus during ci cd? In order for Maven to be able to deploy the artifacts it creates in the package phase of the build, it needs to define the repository information where the packaged artifacts will be deployed, via the distributionManagement element
+diff bw app lb and classic lb ?
+iam roles ? An IAM role is an IAM identity that you can create in your account that has specific permissions that enables you o delegate access to users, applications, or services.
+cloudwatch/cloudtrail?  cloudtrail - logs/ cloudwatch - monitoring / cloudfront - content delivery netwrk
+docker /kubernetes
+migration- pre req ? blueprint, Migration tools, list of assignments, backups and its synchronization with your on-premises data repositories. 
+You can finally migrate your project to AWS Cloud.
+s3 security - how to enable ? Object Lock , MFA , IAM , ACL ,Encryption
+- docker - how to start ? sudo docker start [options] container_id
+- security grps - ? AWS security groups (SGs) are associated with EC2 instances and provide security at the protocol and port access level.
+- cloud formation - how you do it ? Create a new template or use an existing CloudFormation template using the JSON or YAML format.
+Save your code template locally or in an S3 bucket. Use AWS CloudFormation to build a stack on your template. 
+AWS CloudFormation constructs and configures the stack resources that you have specified in your template.
+- during the deployment in docker how to enable users to select the type of instance you want to create ? Deploy a container instance in Azure using an ARM template
+- do you perform upgrade/downgrade in aws ? - stop the instance, go to actions and upgrade/downgrade, save and then start the instance
+- upscale/downscale in aws ? Autoscaling - Crossing a threshold causes a scaling event, upscaling if more instances are needed, and downscaling if fewer instances are needed. 
+
+pyhton version - 3.7
+jenkins - 2.26
+
+organization - account management service that enables you to consolidate multiple AWS accounts into an organization
+controltower - enroll any number of “child” accounts under a parent account and apply policies across all accounts from a single location.
+scp - server control policies are similar to AWS Identity and Access Management (IAM) permission policies and use almost the same syntax. However, an SCP never grants permissions. Instead, SCPs are JSON policies that specify the maximum permissions for the affected accounts.
+nacl - Network Access Control Lists and it is a defense layer for your VPC that regulates the traffic in and out of one or more subnets.
+difference between nacl and security grps - NACLs act like a firewall at the subnet level. Security groups are stateful.NACLs are stateless 
+
+
+
+authenticatn factor in aws - MFA
